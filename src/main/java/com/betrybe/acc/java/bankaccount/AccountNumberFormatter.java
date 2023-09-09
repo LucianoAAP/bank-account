@@ -12,7 +12,7 @@ public class AccountNumberFormatter {
    * @param literalAccountNumber número da conta
    */
   public String formatAccountNumber(int literalAccountNumber) {
-
+    return "";
   }
 
 }
