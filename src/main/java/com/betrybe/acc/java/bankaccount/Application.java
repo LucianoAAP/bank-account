@@ -17,11 +17,12 @@ public class Application {
     if (!accountNumber.matches("[0-9]+")) {
       System.out.println("Número da conta inválido!");
       scanner.close();
-      return ;
+      return;
     }
     int literalAccountNumber = Integer.valueOf(accountNumber);
     AccountNumberFormatter formatter = new AccountNumberFormatter();
-    System.out.println(String.format("Número da conta: %s", formatter.formatAccountNumber(literalAccountNumber)));
+    System.out.println(String.format("Número da conta: %s",
+        formatter.formatAccountNumber(literalAccountNumber)));
     scanner.close();
   }
 
