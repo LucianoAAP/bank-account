@@ -21,7 +21,7 @@ public class Application {
     }
     int literalAccountNumber = Integer.valueOf(accountNumber);
     AccountNumberFormatter formatter = new AccountNumberFormatter();
-    System.out.println(String.format("Número da conta: %s",
+    System.out.println(String.format("Numero da conta: %s",
         formatter.formatAccountNumber(literalAccountNumber)));
     scanner.close();
   }
